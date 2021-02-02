@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'MayaSamuelsPro-Light';
+    src: url('../fonts/MayaSamuelsPro-Light.ttf') format('truetype'),
+    url('../fonts/MayaSamuelsPro-Light.woff') format('woff'),
+    url('../fonts/MayaSamuelsPro-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body
+{
+    background: #8c9a65;
+}
+
+#shh
+{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hand
+{
+    position: absolute;
+}
+.hand img
+{
+    display: block;
+    width: 100%;
+}
+.hand-l
+{
+    width: 365px;
+
+    left: 94px;
+    bottom: -21px;
+}
+.hand-r
+{
+    width: 414px;
+
+    right: -60px;
+    bottom: -94px;
+}
+
+
+.shh-logo
+{
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+}
+.shh-logo-img
+{
+    margin-bottom: 58px;
+}
+.shh-logo-img img
+{
+    display: block;
+    width: 100%;
+}
+.shh-logo-text
+{
+    color: #ffffff;
+    font-family: 'MayaSamuelsPro-Light', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "soon" */
+    letter-spacing: 30px;
+    padding-left: 35px;
+}
+
+
+@media only screen and (max-width: 1700px)
+{
+    .shh-logo
+    {
+        max-width: 170px;
+    }
+    .shh-logo-img
+    {
+        margin-bottom: 40px;
+    }
+    .shh-logo-text
+    {
+        font-size: 18px;
+        letter-spacing: 24px;
+        padding-left: 24px;
+    }
+
+    .hand-l
+    {
+        width: 274px;
+    }
+    .hand-r
+    {
+        width: 310px;
+    }
+}
+@media only screen and (max-width: 1439px)
+{
+    .hand-l
+    {
+        width: 244px;
+    }
+    .hand-r
+    {
+        width: 276px;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .hand-l
+    {
+        left: 30px;
+        bottom: -10px;
+    }
+    .hand-r
+    {
+        right: -20px;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+    .shh-logo
+    {
+        max-width: 140px;
+    }
+    .shh-logo-text
+    {
+        letter-spacing: 20px;
+        padding-left: 18px;
+    }
+
+    .hand-l
+    {
+        width: 190px;
+    }
+    .hand-r
+    {
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 640px)
+{
+    .shh-logo
+    {
+        max-width: 110px;
+    }
+    .shh-logo-img
+    {
+        margin-bottom: 30px;
+    }
+    .shh-logo-text
+    {
+        font-size: 14px;
+        letter-spacing: 14px;
+    }
+
+    .hand-l
+    {
+        width: 110px;
+        left: 10px;
+    }
+    .hand-r
+    {
+        width: 130px;
+        bottom: -10px;
+    }
+}
