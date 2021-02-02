@@ -57,6 +57,8 @@ body
     width: 225px;
     margin: 0 auto;
     text-align: center;
+
+    position: relative;
 }
 .shh-logo-img
 {
