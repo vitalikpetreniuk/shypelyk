@@ -13,6 +13,7 @@
 body
 {
     background: #8c9a65;
+    overflow: hidden;
 }
 
 #shh
@@ -157,6 +158,7 @@ body
     .shh-logo
     {
         max-width: 110px;
+        padding-bottom: 40px;
     }
     .shh-logo-img
     {
@@ -170,12 +172,14 @@ body
 
     .hand-l
     {
-        width: 110px;
+        width: 100px;
         left: 10px;
+
+        bottom: 50px;
     }
     .hand-r
     {
-        width: 130px;
-        bottom: -10px;
+        width: 115px;
+        bottom: 30px;
     }
 }

@@ -27,3 +27,10 @@ window.onload = function() {
         shh.addEventListener("mousemove",mvImg,false);
     }
 }
+
+$(function(){
+    if($(window).width()<767)
+    {
+        // $('body').height('40');
+    }
+})
